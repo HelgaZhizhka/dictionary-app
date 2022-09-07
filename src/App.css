@@ -1,4 +1,16 @@
-.App {
-  padding-top: 80px;
+.container {
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1160px;
+    margin: auto;
+  }
+}
+.header {
+  padding: 20px 0;
   text-align: center;
+  margin-bottom: 40px;
 }
