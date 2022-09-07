@@ -28,7 +28,7 @@ export default function Search(props) {
 						className="search__input"
 						type="search"
 						onChange={handlerChange}
-					/>``
+					/>
 				</div>
 			</form>
 		</div>
