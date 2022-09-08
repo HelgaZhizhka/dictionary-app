@@ -8,9 +8,33 @@
     max-width: 1160px;
     margin: auto;
   }
+  .search {
+    width: 75%;
+    margin: auto; 
+  }
 }
 .header {
+  display: flex;
   padding: 20px 0;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 40px;
+}
+.header .logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.title {
+    margin-top: 0;
+}
+input:focus {
+    outline: 0;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+.m-0 {
+  margin: 0;
 }
