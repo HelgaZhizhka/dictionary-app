@@ -11,13 +11,13 @@ function App() {
       </header>
       <Search word="transition" />
       <footer>
-        This project was coded by{' '}
+        This project was coded by
         <a
-          href="https://www.shecodes.io/"
+          href="https://www.linkedin.com/in/helgazhyzhka/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          SheCodes
+          Olga Zhyzhka
         </a>{' '}
         and is{' '}
         <a
