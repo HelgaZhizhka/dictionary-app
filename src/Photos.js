@@ -2,7 +2,6 @@ import React from "react"
 
 export default function Photos(props) {
     if (props.photos) {
-      console.log(props.photos)
       return (
         <div className="card search__photos">
           {props.photos.map((photo, index) => {
