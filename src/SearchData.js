@@ -5,11 +5,11 @@ export default function SearchData(props) {
     console.log(props.data.data);
     if (props.data.data) {
 		return (
-			<div className="search__container">
-				<div className="card">
-					<h2 className="title">{props.data.data.word}</h2>
-					<div className="d-flex">
-						{/* <a
+      <div className="search__container">
+        <div className="card">
+          <h2 className="title">{`${props.data.data.word[0].toUpperCase()}${props.data.data.word.slice(1)}`}</h2>
+          <div className="d-flex">
+            {/* <a
 							href={props.data.phonetics[1].audio}
 							target="_blank"
 							rel="noopener noreferrer"
@@ -44,20 +44,20 @@ export default function SearchData(props) {
 								/>
 							</svg>
 						</a> */}
-						<span className="search__transcription">
-							{props.data.data.phonetic}
-						</span>
-					</div>
-				</div>
-				{props.data.data.meanings.map((meaning, index) => {
-					return (
-						<div className="card" key={index}>
-							<Meaning data={meaning} />
-						</div>
-					);
-				})}
-			</div>
-		);
+            <span className="search__transcription">
+              {props.data.data.phonetic}
+            </span>
+          </div>
+        </div>
+        {props.data.data.meanings.map((meaning, index) => {
+          return (
+            <div className="card" key={index}>
+              <Meaning data={meaning} />
+            </div>
+          )
+        })}
+      </div>
+    )
 	} else {
 		return null;
 	}
