@@ -20,3 +20,10 @@ img {
   max-width: 100%;
   border: 0
 }
+footer {
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-size: 1.125rem;
+  letter-spacing: -.05em;
+  padding: 0 0 100px;
+}
