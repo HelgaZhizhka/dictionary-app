@@ -3,7 +3,6 @@ import Meaning from './Meaning'
 import Phonetic from './Phonetic'
 
 export default function SearchData(props) {
-  console.log(props.data.data)
   if (props.data.data) {
     return (
       <div className="search__container">

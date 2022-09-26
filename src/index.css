@@ -16,3 +16,7 @@ code {
 .mr-2 {
   margin-right: 2rem;
 }
+img {
+  max-width: 100%;
+  border: 0
+}
